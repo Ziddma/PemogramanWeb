@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Navbar  */
+.navbar {
+  background-color: #1e5afa;
+}
+#navbarNavDropdown {
+  left: -200px;
+}
+.navbar-nav {
+  position: relative;
+  font-weight: 600;
+}
+.navbar-nav .nav-item a {
+  color: white;
+}
+#navbarDropdownMenuLink {
+  color: white;
+  border: none;
+}
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  padding: 17px 20px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-item {
+  color: black;
+  padding: 12px 14px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: block;
+}
+.login {
+  display: inline;
+  margin-top: 18px;
+}
+#signup {
+  color: black;
+  padding: 15px 25px;
+  border-radius: 15px;
+  font-weight: 600;
+}
+
+.login ul a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.login ul button {
+  display: flex;
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 9px;
+  opacity: 0%;
+}
+/* Navbar end */
+.container-popup.active {
+  opacity: 100%;
+  transform: translate(-50%, -50%) scale(1);
+  z-index: 1;
+  top: 60%;
+  overflow-y: auto;
+  position: fixed;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.45);
+  border-radius: 40px;
+}
+.container-popup {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  opacity: 0%;
+  overflow: auto;
+}
+.login-form {
+  height: 550px;
+  width: 600px;
+  padding: 0 10px;
+  background-color: #c7e4ff;
+  border-radius: 40px;
+  border: none;
+}
+.card-title {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  font-weight: 600;
+}
+.card-subtitle {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+.card-subtitle h4 {
+  color: #1566af;
+  font-weight: 550;
+}
+.card-body {
+  padding: 0px 70px;
+  padding-top: 50px;
+}
+form {
+  margin-top: 36px;
+}
+form .form-label {
+  font-size: 15px;
+  font-weight: 600;
+}
+.row button {
+  width: 300px;
+  padding: 10px;
+  font-weight: 600;
+}
+.belum {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.belum h6,
+.belum h6 a {
+  font-weight: 550;
+  text-decoration: none;
+}
+#login {
+  padding-top: 20px;
+}
+.form-check a,
+.form-check label {
+  font-weight: 600;
+  text-decoration: none;
+}
+.form-check a {
+  margin-left: 210px;
+}
+.close-button button {
+  position: absolute;
+  width: 38px;
+  height: 30px;
+  left: 504px;
+  top: 50px;
+  opacity: 0%;
+}
+.close-button a {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  left: 504px;
+  top: 50px;
+}
+/* End overlay login */
+
+/* jumbotron */
+.jumbotron {
+  text-align: center;
+  font-size: large;
+  background-color: #c7e4ff;
+  margin-top: 30px;
+  padding-top: 100px;
+}
+.box-details {
+  background-color: white;
+  margin-top: 50px;
+  margin: 0px 200px;
+  padding-bottom: 100px;
+}
+/* end jumbotron */

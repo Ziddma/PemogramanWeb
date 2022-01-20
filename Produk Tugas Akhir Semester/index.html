@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" /> 
+    <link rel="stylesheet" href="landing_page.css" />
+    <title>Sejuta Impian</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="asset/Logo.svg" alt="" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-md-center" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Beranda</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Event </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#" style="color: black; font-weight: 600">Beasiswa</a></li>
+                <li><a class="dropdown-item" href="#" style="color: black; font-weight: 600">Lomba</a></li>
+                <li><a class="dropdown-item" href="webinar_page.html" style="color: black; font-weight: 600">Webinar</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="kontak.php">Kontak</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tentang_kami.html">Tentang Kami</a>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="login">
+          <ul>
+          <button id="show-login">Login</button>
+          <a class="nav-link" style="display: inline">Login</a>
+          <a class="btn btn-light" href="signup.html" role="button" id="signup">Signup</a>
+           </ul> 
+        </div>      
+       
+      </div>
+    </nav>
+    <!-- popup login -->
+    <div class="container-popup">
+      <div class="card login-form">
+        <div class="close-button">
+          <a><img src="asset/exit-icon.png" /></a>
+          <button><img src="asset/exit-icon.png" /></button>
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Masuk</h2>
+          <div class="card-subtitle"><h6>Masuk dan segera dapatkan manfaatnya</h6></div>
+          <form>
+            <div class="mb-4">
+              <label for="exampleInputEmail1" class="form-label" aria-placeholder="Email">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+            </div>
+            <div class="mb-4">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" />
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+              <label class="form-check-label" for="exampleCheck1">Ingat Saya</label>
+              <a href="#">Lupa sandi?</a>
+            </div>
+            <div class="row justify-content-center" id="login">
+              <button type="submit" class="btn btn-primary items-align-center">Login</button>
+            </div>
+
+            <div class="belum">
+              <h6>Belum terdaftar?<a href="signup.html">Buat Akun</a></h6>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- End popup login -->
+    <!-- end nav -->
+    <!-- Upper body -->
+    <section>
+      <div class="upper" >
+        <div class="row">
+          <div class="col-md-12">
+        <div class="element_box">
+          <img src="asset/box_element.png" />
+          <h2>
+            Raih Impianmu <br />
+            Bersama Kami
+          </h2>
+          <p>Ikuti event produktif untuk menggapai prestasi dan raih pekerjaan di perusahaan impianmu</p>
+        </div>
+        <div class="ilustration">
+          <img src="asset/Banner content.svg" />
+        </div>
+        <div class="element_style">
+          <img src="asset/element 2.svg" />
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="box_event">
+        <div class="jumlah_event">
+          <img src="asset/jumlah_event.svg" />
+        </div>
+        <div class="eobergabung">
+          <img src="asset/Eo_bergabung.svg" />
+        </div>
+        <div class="mahasiswa">
+          <img src="asset/mhs_terdaftar.svg" />
+        </div>
+        <div class="intitusi">
+          <img src="asset/institusi.svg" />
+        </div>
+      </div>
+    </div>
+    </section>
+    <!-- End Upper body -->
+    <!-- Ribuan webinar -->
+    <section>
+      <div class="ribuan_event">
+        <div class="heading-text">
+          <h2>Ribuan event webinar, lomba, dan beasiswa bisa kamu temukan dan daftar dengan 1 klik</h2>
+        </div>
+        <div class="icon_event">
+          <div class="lomba">
+            <img src="asset/Lomba.svg" />
+          </div>
+          <div class="beasiswa">
+            <img src="asset/Beasiswa.svg" />
+          </div>
+          <div class="Webinar">
+            <img src="asset/Webinar.svg" />
+          </div>
+        </div>
+        <div class="wave1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path
+              fill="#C7E4FF"
+              fill-opacity="1"
+              d="M0,128L60,128C120,128,240,128,360,144C480,160,600,192,720,181.3C840,171,960,117,1080,106.7C1200,96,1320,128,1380,144L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+            ></path>
+          </svg>
+        </div>
+      </div>
+    </section>
+    <!-- End ribuan webinar -->
+    <!-- Kata mereka -->
+      <section>
+        <div class="card" style="background:#C7E4FF;">
+          <h3>Kata mereka tentang SejutaImpian</h3>
+          <div class="row">
+            <div class="kartu-1" style="background: #1566AF;">
+            <img src="asset/Zidni ilma.png">
+            <h2>Zidni Ilma</h2>
+            <p>Pemenang lomba cerdas cermat Universitas Dian Nuswantoro</p>
+            <p>“Menurutku lomba yang diselenggarakan SejutaImpian udah bagus banget, dari biaya resgistrasi yang murah banget sampai teknik lombanya tersusun rapi”</p>
+          </div>
+          <div class="kartu-1" style="background: #1566AF;">
+            <img src="asset/fahri.png">
+            <h2>Ahmad Zarkasyi</h2>
+            <p>Peserta MentorImpian Universitas Dian Nuswantoro</p>
+            <p>“Saya sangat bersyukur bisa menjadi MentorImpian karena memberi kesempatan bagi saya untuk belajar secara langsung dari sosok yang saya kagumi dan bahkan berkerja di perusaannya”</p>
+          </div>
+          <div class="kartu-1" style="background: #1566AF;">
+            <img src="asset/filthy.png">
+            <h2>Filthy Frank</h2>
+            <p>Pemenang lomba cerdas cermat New York Institute Technology</p>
+            <p>“Lombanya seru banget jadi makin buka wawasanku tentang banyak hal yang ada di Indonesia,Harapannya, Sejuta Impian harus sering ngadain lomba seperti ini lagi dan mungkin nanti lombanya bisa berjenjang sesuai tingkat pendidikan biar lebih seru “</p>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+    <!-- End kata mereka -->
+    <!-- gabung -->
+      <section>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path fill="#C7E4FF" fill-opacity="1" d="M0,288L48,282.7C96,277,192,267,288,234.7C384,203,480,149,576,154.7C672,160,768,224,864,218.7C960,213,1056,139,1152,128C1248,117,1344,171,1392,197.3L1440,224L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+        </svg>
+        <div class="gabung" style="background: #fff; margin-top: -10px; padding-top: 20px;">
+          <img src="asset/ilustrasi kunig.svg" style="padding-left: 10rem;">
+          <h1 style="float: right; width: 699px; font-size: 40px; padding-right: 120px; padding-top: 10rem;"><b>Gabung bersama 2.4 juta + Pejuang Impian lainnya dan gapai cita mu !</b></h1>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path fill="#C7E4FF" fill-opacity="1" d="M0,128L60,128C120,128,240,128,360,144C480,160,600,192,720,181.3C840,171,960,117,1080,106.7C1200,96,1320,128,1380,144L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+        </svg>
+      </section>
+    <!-- end gabung -->
+    <!-- footer -->
+    <section>
+      <div class="text-header">
+        <p><b>Download aplikasi </b></p>
+        <p style="color: blue;"><b> Sejuta Impian</b></p>
+      </div>
+      <div class="footer">
+      <div class="img_footer">
+        <img src="asset/qrcode_5881418_ 1.png">
+        <img src="asset/logo footer.svg">
+      </div>
+      <div class="sejuta">
+          <p style="color: blue; font-weight: 600;">Sejuta Impian</p>
+          <p>Tetang Kami</p>
+          <p>Hubungi Kami</p>
+          <p>Kebijakan Privasi</p>
+          <p>Syarat & Ketentuan</p>   
+      </div>
+      <div class="kontak">
+        <ul>
+          <p style="color: blue; font-weight: 600;" id="kontak">Kontak</p>
+          <p><img src="asset/wa.png">081 145 151 199</p>
+          <p><img src="asset/email.png">Sejutaimpian@gmail.com</p>
+          <p><img src="asset/intagram.png">@SejutaImpian</p>
+        </ul>
+      </div>
+      </div>
+    </section>
+    <!-- end footer -->
+    <script src="login-overlay.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  </body>
+</html>
+<!-- <div class="login"> 
+  <ul>
+    <a class="nav-link" href="form-login/login.html" style="display: inline">Login</a>
+    <a class="btn btn-light" href="#" role="button" id="signup">Signup</a>
+ </ul> 
+ </div> -->

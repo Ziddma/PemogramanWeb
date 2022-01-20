@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap");
+
+body,
+html {
+  font-family: "Montserrat", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+.box-signup {
+  background-color: #c7e4ff;
+  display: flex;
+  height: 730px;
+}
+.img-ilustration img {
+  position: relative;
+  left: 100px;
+  top: 230px;
+}
+.box-text {
+  display: relative;
+  position: absolute;
+  background-color: white;
+  border-start-start-radius: 20px;
+  width: 800px;
+  height: 500px;
+  left: 650px;
+  top: 5%;
+}
+form {
+  background-color: white;
+  margin-top: -100px;
+  padding: 0px 100px;
+  padding-top: 130px;
+  border-end-start-radius: 20px;
+}
+.text-header h2 {
+  font-weight: 600;
+}
+.text-header {
+  margin: 50px 90px;
+  margin-bottom: 30px;
+}
+.back-button button {
+  position: absolute;
+  width: 9px 9px;
+  height: 21px;
+  left: 710px;
+  top: 30px;
+  opacity: 0%;
+}
+.back-button a {
+  position: absolute;
+  width: 9px 9px;
+  height: 21px;
+  left: 710px;
+  top: 30px;
+}
+#box-other-login {
+  display: flex;
+  position: relative;
+  margin: 40px 0px;
+  padding: 10px 20px;
+}
+.col-6 a {
+  margin-left: 50px;
+  padding: 15px;
+  border-style: groove;
+  text-decoration: none;
+  color: black;
+}
+.row p {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+.signup-btn {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  padding: 30px 20px;
+}
+#signup-btn {
+  width: 300px;
+}
+.sudah h6,
+.sudah h6 a {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  text-decoration: none;
+  font-weight: 550;
+}

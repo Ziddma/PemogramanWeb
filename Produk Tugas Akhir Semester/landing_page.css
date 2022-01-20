@@ -1,0 +1,348 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Navbar  */
+.navbar {
+  background-color: #1e5afa;
+}
+#navbarNavDropdown {
+  left: -200px;
+}
+.navbar-nav {
+  position: relative;
+  font-weight: 600;
+}
+.navbar-nav .nav-item a {
+  color: white;
+}
+#navbarDropdownMenuLink {
+  color: white;
+  border: none;
+}
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  padding: 17px 20px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-item {
+  color: black;
+  padding: 12px 14px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: block;
+}
+.login {
+  display: inline;
+  margin-top: 18px;
+}
+#signup {
+  color: black;
+  padding: 15px 25px;
+  border-radius: 15px;
+  font-weight: 600;
+}
+
+.login ul a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.login ul button {
+  display: flex;
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 9px;
+  opacity: 0%;
+}
+/* Navbar end */
+
+/* Upper body */
+.upper {
+  background-color: #1e5afa;
+  display: flex;
+  position: flex;
+  height: 710px;
+  top: 106px;
+  max-width: 100%;
+}
+.upper .element_box img {
+  position: absolute;
+  width: 617.7px;
+  height: 452.83px;
+  left: 49.35px;
+  top: 142.03px;
+}
+.element_box h2 {
+  position: absolute;
+  width: 510px;
+  height: 144px;
+  left: 100px;
+  top: 240.69px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 62px;
+  line-height: 72px;
+}
+.element_box p {
+  position: absolute;
+  width: 450px;
+  height: 102px;
+  left: 100px;
+  top: 400px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+}
+.ilustration img {
+  position: absolute;
+  width: 444.08px;
+  height: 485.86px;
+  left: 851.1px;
+  top: 228.07px;
+}
+.element_style img {
+  position: absolute;
+  width: 159.1px;
+  height: 168.31px;
+  left: 1299.63px;
+  top: 510.24px;
+  transform: rotate(40.9deg);
+}
+/* End upper body */
+/* Jumlah event */
+.box_event {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: flex;
+  width: auto;
+  height: 147px;
+  left: 0px;
+  top: 816px;
+  background-color: #1566af;
+}
+/* End jumlah event */
+/*Ribuan event..*/
+.ribuan_event {
+  display: flex;
+  position: absolute;
+  background-color: #ffffff;
+  width: 100%;
+  height: 626px;
+  left: 0px;
+  top: 964px;
+}
+.ribuan_event .heading-text h2 {
+  position: absolute;
+  width: 1180px;
+  height: 87px;
+  left: 170px;
+  top: 89px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #000000;
+}
+.icon_event {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  width: 1045px;
+  height: 167px;
+  left: 250px;
+  top: 255px;
+}
+.wave1 {
+  position: absolute;
+  width: 100%;
+  height: 152px;
+  left: 0px;
+  top: 474px;
+}
+/* End ribuan event */
+/* Kata mereka */
+.box_kata_mereka {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1rf;
+}
+col {
+  display: flex;
+  align-items: center;
+}
+/* End kata mereka */
+.card {
+  margin-top: 800px;
+  padding: 0px;
+  padding-top: 50px;
+}
+.card h3 {
+  margin-left: 100px;
+  padding: 10px 10px;
+  font-weight: 600;
+}
+.kartu-1 {
+  width: 380px;
+  margin-left: 110px;
+  justify-content: center;
+  text-align: center;
+  padding-top: 20px;
+  border-radius: 20px;
+}
+.kartu-1 h2 {
+  margin: 20px;
+  color: #ffffff;
+}
+.kartu-1 p {
+  margin: 20px;
+  color: #ffffff;
+}
+/* Footer */
+.footer {
+  background-color: #c7e4ff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+}
+.text-header {
+  display: flex;
+  position: absolute;
+  padding-left: 100px;
+}
+.img_footer {
+  padding-left: 100px;
+}
+.text-header p {
+  padding-top: -50px;
+}
+.sejuta p {
+  margin-left: 280px;
+  text-align: center;
+}
+.kontak p {
+  margin-left: 280px;
+  text-align: start;
+}
+.kontak p img {
+  margin-right: 10px;
+}
+#kontak {
+  text-align: center;
+}
+/* Overlay login */
+.container-popup.active {
+  opacity: 100%;
+  transform: translate(-50%, -50%) scale(1);
+  z-index: 1;
+  top: 0%;
+  display: absolute;
+  position: fixed;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.45);
+  border-radius: 40px;
+}
+.container-popup {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  opacity: 0%;
+  overflow: auto;
+}
+.login-form {
+  height: 550px;
+  width: 600px;
+  padding: 0 10px;
+  background-color: #c7e4ff;
+  border-radius: 40px;
+  border: none;
+}
+.card-title {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  font-weight: 600;
+}
+.card-subtitle {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+.card-subtitle h4 {
+  color: #1566af;
+  font-weight: 550;
+}
+.card-body {
+  margin-top: -10px;
+  padding: 0px 70px;
+  padding-top: 50px;
+}
+form {
+  margin-top: 36px;
+}
+form .form-label {
+  font-size: 15px;
+  font-weight: 600;
+}
+.row button {
+  width: 300px;
+  padding: 10px;
+  font-weight: 600;
+}
+.belum {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.belum h6,
+.belum h6 a {
+  font-weight: 550;
+  text-decoration: none;
+}
+#login {
+  padding-top: 20px;
+}
+.form-check a,
+.form-check label {
+  font-weight: 600;
+  text-decoration: none;
+}
+.form-check a {
+  margin-left: 210px;
+}
+.close-button button {
+  position: absolute;
+  width: 38px;
+  height: 30px;
+  left: 504px;
+  top: 50px;
+  opacity: 0%;
+}
+.close-button a {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  left: 504px;
+  top: 50px;
+}
+/* End overlay login */

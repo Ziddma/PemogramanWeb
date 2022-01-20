@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="webinar_page.css" />
+    <title>Sejuta Impian</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar fixed-top navbar-expand">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="asset/Logo.svg" alt="" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-md-center" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Beranda</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Event </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="beasiswa_page.html" style="color: black; font-weight: 600">Beasiswa</a></li>
+                <li><a class="dropdown-item" href="lomba_page.html" style="color: black; font-weight: 600">Lomba</a></li>
+                <li><a class="dropdown-item" href="#" style="color: black; font-weight: 600">Webinar</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="kontak.php">Kontak</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tentang_kami.html">Tentang Kami</a>
+            </li>
+          </ul>
+        </div>
+        <div class="login">
+          <ul>
+            <a class="nav-link" href="form-login/login.html" style="display: inline">Login</a>
+            <a class="btn btn-light" href="signup.html" role="button" id="signup">Signup</a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End navbar -->
+    <!-- content -->
+    <section>
+      <div class="box-webinar">
+        <div class="text-header">
+          <h2>Webinar</h2>
+        </div>
+        <div class="kartu-1-img">
+          <a href="content_detail.html">
+            <img src="asset/Poster Sunat iik 2 1.png" />
+            <div class="kartu-text">
+              <h4>Seminar Kesehatan Sunat Modern</h4>
+              <p>Daftar : 06 September 2030<br />Event : 19 Mei 2030</p>
+            </div>
+          </a>
+        </div>
+        <div class="kartu-1-img">
+          <a href="content_detail.html">
+            <img src="asset/seminar kewirausahaan.png" />
+            <div class="kartu-text">
+              <h4>Seminar Nasional kewirausahaan</h4>
+              <p>Daftar : 12 April 2029<br />Event : 19 Agustus 2029</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- end content -->
+      <!-- search box -->
+      <div class="box-cari">
+        <div class="search">
+          <form class="d-flex me-5">
+            <input class="kolom-search" type="search" placeholder="Cari Webinar" aria-label="Search" />
+            <button class="btn btn-outline-primary" type="submit">Search</button>
+          </form>
+          <div class="box-filter">
+            <a class="filter" href="#"><img src="asset/filter-icon.png" />Filter</a>
+            <a class="sortir" href="#"><img src="asset/sortit-icon.png" />Sortir</a>
+          </div>
+        </div>
+        <div class="box-rekomendasi">
+          <h4>Rekomendasi Untukmu</h4>
+        </div>
+        <div class="gbr-rekomendasi">
+          <a class="rkm-1" href="#"><img src="asset/rekomendasi-1.png" /></a>
+          <a class="rkm-2" href="#"><img src="asset/rekomendasi-2.png" /></a>
+          <a class="rkm-3" href="#"><img src="asset/rekomendasi-3.png" /></a>
+        </div>
+        <div class="box-riwayat">
+          <h4>Riwayat</h4>
+        </div>
+        <div class="gbr-riwayat">
+          <a class="ryt-1" href="#"><img src="asset/riwayat-1.png" /></a>
+          <a class="ryt-2" href="#"><img src="asset/riwayat-2.png" /></a>
+          <a class="ryt-3" href="#"><img src="asset/riwayat-3.png" /></a>
+        </div>
+      </div>
+
+      <!-- End search box -->
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  </body>
+</html>

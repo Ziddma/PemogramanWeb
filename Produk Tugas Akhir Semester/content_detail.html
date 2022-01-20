@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="content_detail.css" />
+
+    <title>Sejuta Impian</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="asset/Logo.svg" alt="" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-md-center" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Beranda</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Event </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#" style="color: black; font-weight: 600">Beasiswa</a></li>
+                <li><a class="dropdown-item" href="#" style="color: black; font-weight: 600">Lomba</a></li>
+                <li><a class="dropdown-item" href="webinar_page.html" style="color: black; font-weight: 600">Webinar</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="kontak.php">Kontak</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tentang_kami.html">Tentang Kami</a>
+            </li>
+          </ul>
+        </div>
+        <div class="login">
+          <ul>
+            <a class="nav-link" href="form-login/login.html" style="display: inline">Login</a>
+            <a class="btn btn-light" href="signup.html" role="button" id="signup">Signup</a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End navbar -->
+    <!-- Detail upper -->
+    <section>
+      <div class="box-detail">
+        <div class="box-upper">
+          <img src="asset/poster detail.png" />
+          <div class="container">
+            <div class="back-button">
+                <a><img src="asset/Back button.png"></a>
+                <button onclick="history.back()"><img src="asset/Back button.png"></button>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-8" id="text-header"><h2>Webinar kesehatan Sunat modern</h2></div>
+            </div>
+            <div class="row justify-content-start align-items-center" id="text-upper">
+                <div class="col-1"><img src="asset/kalender-icon.png"></div>
+                <div class="col-5"><h4>06 September 2030</h4></div>
+              </div>
+              <div class="row justify-content-start align-items-center" id="text-upper">
+                <div class="col-1"><img src="asset/maps-icon.png"></div>
+                <div class="col-5"><h4>Online</h4></div>
+              </div>
+              <div class="row justify-content-start align-items-center" id="text-upper">
+                <div class="col-1 "><img src="asset/building-icon.png"></div>
+                <div class="col-5 "><h4>Universitas Kuvukiland</h4><h6>Kuvukiland@gmail.com</h6></div>
+                <div class="col-4"></div>
+                <div class="col-2" id="medsos-icon"><img src="asset/wa-icon.png"><img src="asset/ig-icon.png"></div>
+                </div>
+              </div>
+            </div>
+        <div class="box-body">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="leftClick()" id="detail-event">Detail Event</button>
+                <button type="button" class="toggle-btn" onclick="rightClick()" id="tiket">Tiket</button>
+            </div>
+            <div class="box-text-body">
+                <h4>Tentang Event</h4>
+                <p>Halo teman - teman semuanya, dalam rangka memperingati Hari AIDS Sedunia, kami akan menyelenggarakan Alive 2021, Webinar dan talkshow - HIV, AIDS & STDs Education, prevention, and treatment during pandemic COVID-19</p>
+                <hr>
+                <h4 style="padding-top: 20px;">Manfaat</h4>
+                <div class="row align-items-center justify-content-start">
+                    <div class="col-1"><img src="asset/blue-dot.png"></div>
+                    <div class="col-3"><h6>Sertifikat gratis untuk peserta</h6></div>
+                </div>
+                <div class="row align-items-center justify-content-start">
+                    <div class="col-1"><img src="asset/blue-dot.png"></div>
+                    <div class="col-3"><h6>Prakarya CV</h6></div>
+                </div>
+                <div class="row align-items-center justify-content-start">
+                    <div class="col-1"><img src="asset/blue-dot.png"></div>
+                    <div class="col-3"><h6>Networking</h6></div>
+                </div>
+                <div class="row align-items-center justify-content-start">
+                    <div class="col-1"><img src="asset/blue-dot.png"></div>
+                    <div class="col-3"><h6>Materi presentasi</h6></div>
+                </div>
+                <hr>
+                <h4 style="padding-top: 20px;">Prasyarat</h4>
+                <div class="row align-items-center justify-content-start">
+                    <div class="col-1"><img src="asset/blue-dot.png"></div>
+                    <div class="col-3"><h6>SMA/Sederajat</h6></div>
+                </div>
+                <div class="row align-items-center justify-content-start">
+                    <div class="col-1"><img src="asset/blue-dot.png"></div>
+                    <div class="col-3"><h6>Secondary School</h6></div>
+                </div>
+                <div class="row align-items-center justify-content-start">
+                    <div class="col-1"><img src="asset/blue-dot.png"></div>
+                    <div class="col-3"><h6>Gapyear</h6></div>
+                </div>
+                <div class="d-grid gap-2 col-5 mx-auto" style="padding-top: 30px;">
+                    <button class="btn btn-primary" style="border-radius: 20px; font-size: 22px; font-weight: 600;" type="button" onclick="myFunction()">Pilih Tiket</button>
+                    <h4 id="hasil" style="text-align: center; color: red;"></h4>
+                  </div>
+                
+
+             </div> 
+           </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Detail body -->
+    <script src="konfirmasi-box.js"></script>
+    <script src="switch-button.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  </body>
+</html>

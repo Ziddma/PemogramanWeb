@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+/* navbar */
+.navbar {
+  background-color: #1e5afa;
+}
+#navbarNavDropdown {
+  left: -200px;
+}
+.navbar-nav {
+  position: relative;
+  font-weight: 600;
+}
+.navbar-nav .nav-item a {
+  color: white;
+}
+#navbarDropdownMenuLink {
+  color: white;
+  border: none;
+}
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  padding: 17px 20px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-item {
+  color: black;
+  padding: 12px 14px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: block;
+}
+.login {
+  display: inline;
+  margin-top: 18px;
+}
+#signup {
+  color: black;
+  padding: 15px 25px;
+  border-radius: 15px;
+  font-weight: 600;
+}
+
+.login ul a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+/* End navbar */
+/* Webinar card */
+.box-webinar {
+  background-color: #c7e4ff;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+.text-header h2 {
+  padding: 30px 35px;
+  font-weight: 600;
+}
+.kartu-1-img {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.kartu-1-img a {
+  display: flex;
+  width: 887px;
+  margin-left: 33px;
+  padding: 31px 32px;
+  border-radius: 20px;
+  border-style: solid;
+  text-decoration: none;
+  color: #5f5d5d;
+}
+.kartu-text h4 {
+  padding: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #1e5afa;
+}
+.kartu-text p {
+  margin-top: 200px;
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+/* End webinar card */
+/* box rekomendasi */
+.box-cari {
+  background-color: white;
+  position: absolute;
+  width: max-content;
+  height: 1000px;
+  left: 982px;
+  top: 125px;
+  border-start-start-radius: 20px;
+  border-end-start-radius: 20px;
+}
+.box-cari form {
+  margin: 20px 20px;
+  width: 460px;
+  padding-top: 40px;
+}
+.kolom-search {
+  border-style: solid;
+  color: black;
+  width: 400px;
+  border-radius: 5px;
+}
+.box-filter {
+  padding-top: 20px;
+}
+.filter {
+  border-style: solid;
+  text-decoration: none;
+  color: #5f5d5d;
+  font-weight: 550;
+  margin-left: 25px;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+.filter img {
+  padding-right: 10px;
+}
+.sortir {
+  border-style: solid;
+  text-decoration: none;
+  color: #5f5d5d;
+  font-weight: 550;
+  margin-left: 50px;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+.sortir img {
+  padding-right: 10px;
+}
+/*rekomendasi */
+.box-rekomendasi {
+  position: absolute;
+  width: 500px;
+  height: 22px;
+  left: 20px;
+  top: 200px;
+}
+.gbr-rekomendasi a {
+  display: flex;
+  position: absolute;
+}
+.rkm-1 {
+  position: absolute;
+  width: 137.3px;
+  height: 250px;
+  left: 20px;
+  top: 250px;
+}
+.rkm-2 {
+  position: absolute;
+  width: 137.3px;
+  height: 250px;
+  left: 200px;
+  top: 250px;
+  padding-left: 30px;
+}
+.rkm-3 {
+  position: absolute;
+  width: 137.3px;
+  height: 250px;
+  left: 400px;
+  top: 250px;
+  padding-left: 30px;
+}
+/* riwayat */
+
+.box-riwayat {
+  position: absolute;
+  width: 500px;
+  height: 22px;
+  left: 20px;
+  top: 650px;
+}
+.gbr-riwayat a {
+  display: flex;
+  position: absolute;
+}
+.ryt-1 {
+  position: absolute;
+  width: 137.3px;
+  height: 250px;
+  left: 20px;
+  top: 700px;
+}
+.ryt-2 {
+  position: absolute;
+  width: 137.3px;
+  height: 250px;
+  left: 200px;
+  top: 700px;
+  padding-left: 30px;
+}
+.ryt-3 {
+  position: absolute;
+  width: 137.3px;
+  height: 250px;
+  left: 400px;
+  top: 700px;
+  padding-left: 30px;
+}
+
+/* End box rekomendasi */
